@@ -1,4 +1,4 @@
-﻿# <img src="https://raw.githubusercontent.com/krishnatamakuwala/QuStart-Core/refs/heads/dev/client/public/logo.png" alt="logo" width="30"/> QuStart
+﻿# <img src="https://raw.githubusercontent.com/krishnatamakuwala/QuStart/refs/heads/main/logo.png" alt="logo" width="30"/> QuStart
 
 **QuStart** is a distributed task management system that enables teams to run automated tasks (such as data exports, file processing, and system operations) across multiple machines with **real-time visibility** and **minimal setup**.
 
