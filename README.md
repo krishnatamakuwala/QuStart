@@ -1,13 +1,15 @@
 ﻿# <img src="https://raw.githubusercontent.com/krishnatamakuwala/QuStart/refs/heads/main/logo.png" alt="logo" width="30"/> QuStart
 
-**QuStart** is a distributed task management system that enables teams to run automated tasks (such as data exports, file processing, and system operations) across multiple machines with **real-time visibility** and **minimal setup**.
+**QuStart** is a distributed task management system with asynchronous requests support that enables teams to run long running and automated tasks (such as data exports, file processing, and system operations) across multiple machines with **real-time visibility** and **minimal setup**.
+
+> _Note: This project is private, but I can provide a demo upon request._
 
 ## Problem Statement
 Running long-running tasks directly on API requests creates poor user experiences.  
 For example:
 
 - Exporting millions of records to CSV in real time would force users to wait at a loading screen indefinitely.
-- While storing pre-generated files on a CDN allows instant downloads, dynamic and variable data often requires fetching, processing, and writing first — making the process slow and resource intensive.
+- While storing pre-generated files on a CDN allows instant downloads, dynamic and variable data often requires fetching, processing, and writing first making the process slow and resource intensive.
 - Even with a dedicated agent, hundreds of concurrent users can overwhelm servers, making instant scalability challenging.
 
 ## Solution
@@ -23,8 +25,6 @@ With **end-to-end authentication and authorization**, QuStart provides a secure,
 You can watch the first draft video in below YouTube playlist of unlisted videos.
 
 [QuStart - Draft - YouTube](https://youtube.com/playlist?list=PLcAuwLF81BJt_6T_ddVctixhTMwmaozNU&si=deLL6R_Rj2GrDAK8)
-
-> *P.S. I am sorry for poor audio quality and not fluent english.*
 
 ## Security
 QuStart is designed with **security at its core**:
